@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    border: 2px solid black;
+    padding: 10%;
+}
+.left{
+    border: 2px solid black;
+    float: left;
+    width: 30%;
+    padding: 10%;
+}
+.main{
+    border: 2px solid black;
+    float: right;
+    width: 70%;
+    padding: 10%;
+}
+@media only screen and(max-width: 300px) {
+    body{
+        background-color: red;
+    }
+}
